@@ -70,7 +70,7 @@
                     <i data-feather="target" class="text-emerald-500 w-8 h-8"></i>
                 </div>
                 <h1 class="font-orbitron text-xl font-black text-white tracking-widest uppercase">COW & GORILA</h1>
-                <p class="text-slate-500 text-[9px] uppercase tracking-[0.3em] font-bold">Mobile Node access</p>
+                <p class="text-slate-500 text-[9px] uppercase tracking-[0.3em] font-bold">Powered by Valkyron</p>
             </div>
             
             <div class="grid grid-cols-2 gap-3 mb-6 max-h-72 overflow-y-auto pr-1" id="userGrid"></div>
@@ -218,7 +218,7 @@
         const app = initializeApp(firebaseConfig);
         const db = getFirestore(app);
 
-        const G11_MOBILE = ["LS", "Alchaplast", "Luismi", "Delver", "Fadi", "Chadi", "Luis David", "Edson", "Lou", "Pitufin", "Admin"];
+        const G11_MOBILE = ["LS", "Alchaplast", "Luismi", "Delver", "Fadi", "Chadi", "Luis David", "Edson", "Lou", "Pitufin"];
         let state = { users: [], inventory: { current: 0 }, transactions: [], tasa: 54.5, currentUser: null };
         let loginSelection = null;
 
